@@ -1,0 +1,40 @@
+/*light blue hex code*/
+body{
+	background-color:#add8e6;
+}
+
+/*wrapper for "header" (menu)*/
+#divHwrapper{
+	min-width:500px;/*mobile platform consideration*/
+	width:79%;
+	height: auto;
+	display: block;
+	overflow: auto;
+	background-color: grey;
+	padding: 1%;
+	box-shadow: 0px 0px 10px black;
+}
+
+/*header*/
+#divH{
+	width:100%;/*100% within divHwrapper*/
+	height: 10%;
+	border-bottom: thin #ABABAB solid;
+	float left;
+	position: relative;
+}
+
+#imgPosition{
+	position: relative;
+	float:right;
+	left: 250px
+}
+
+#imgHead{
+	background-image: url("/Users/jwoo/Documents/jaeWhanWooProfile/jwoo.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	height:100%;
+	width:20%;
+	margin-right: 150px;
+}
