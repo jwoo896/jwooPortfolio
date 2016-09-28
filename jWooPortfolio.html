@@ -43,9 +43,17 @@
 
 		</div>
 		
-		<ul>
-			<li><a href="/umbcWebDevProj/IS448-GroupProject/groupProject/indexed.html">Online Point Of Sale web application (Academic Project)</a></li>
-		</ul>
+		<p>
+			<a href="/umbcWebDevProj/IS448-GroupProject/groupProject/indexed.html">Online Point Of Sale web application (Academic Project)</a><br/>
+			This web service was inspired by the purchasing system at ADG Creative's privately owned cafe. ADG's cafe had a paper-based sale system where an employee would take a sheet of paper, after picking out various available items, and jot down each item and the quantity of each item that was taken. The employee would then sign and date the sheet and leave it in a pile. Accountants would then collect the pile, sift through them, and then deduct from appropriate payrolls. 
+
+			This web service aims to virtualize the process. The login credential is 12345. (An AJAX implementation requires that you click the empty drop down box after you've entered the number, and then hit enter to view the webpage.) The first page you'll see is the "categories page". This is the main menu page where a user can select what item category they would like to browse. After selecting a category, a user can add a quantity of an available item to the cart (implemented via session variable) by selecting a number from 1-10 from the drop down list tied to each item.
+
+			A user can access his/her cart via the navigation bar at the top right. The navigation bar at the top is accessible on every page. The cart is dynamically created, and you can even go back to an item that is already on the cart and add more. 
+
+			I've configured a MySQL database that hosts two tables: and inventory table and a user list table. 12345 is the credential for the default "guest" user on the system. There are administrator and accountant credentials as well and they have additional activities they can perform.
+		</p>
+
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
