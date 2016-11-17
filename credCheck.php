@@ -18,7 +18,7 @@
 			case "guest":
 				$_SESSION["auth"] = true;
 				$_SESSION["user"] = $userName;
-				header("Location:/jWooPortfolio/jWooHome.php");
+				header("Location:/jwooPortfolio/jWooHome.php");
 				break;
 			default:
 				echo("Invalid credentials");

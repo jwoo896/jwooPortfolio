@@ -17,7 +17,7 @@
 	function credCheck(){
 		session_start();
 		if(!$_SESSION["auth"]){
-			header("Location:/jWooPortfolio/index.html");
+			header("Location:/jwooPortfolio/index.html");
 		}
 	}
 ?>
