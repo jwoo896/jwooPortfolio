@@ -18,18 +18,18 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html" title="goHome">Home</a>
+					<a class="navbar-brand" href="jWooHome.php" title="goHome">Home</a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="jWooExp.html">Experience</a>
+							<a href="jWooExp.php">Experience</a>
 						</li>
 						<li>
-							<a href="jWooPortfolio.html">Portfolio</a>
+							<a href="jWooPortfolio.php">Portfolio</a>
 						</li>
 						<li class="active">
-							<a href="jWooVideos.html">Fingerstyle Covers</a>
+							<a href="jWooVideos.php">Fingerstyle Covers</a>
 						</li>
 					</ul>
 				</div>
