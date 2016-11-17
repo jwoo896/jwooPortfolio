@@ -15,6 +15,7 @@
 
 		$permission = $row["permissions"];
 		$_SESSION["permission"] = $permission;
+		switch($permission){
 			case "guest":
 				$_SESSION["auth"] = true;
 				$_SESSION["user"] = $userName;
