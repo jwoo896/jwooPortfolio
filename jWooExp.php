@@ -36,6 +36,9 @@
 						<li>
 							<a href="jWooVideos.php">Fingerstyle Covers</a>
 						</li>
+						<li>
+							<a href="/jwooPortfolio/logout.php">Log out</a>
+						</li>
 					</ul>
 				</div>
 			</div>
